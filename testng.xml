@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+	<listener class-name="Listener.ScreenshotListeners"/> 
+	<listener class-name="Listener.ExtentReporterNG"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+     <!--  <class name="udemyTutorial.BasicTest9BrowserLaunchESPNCricinfo"/>
+      <class name="udemyEcommerceApp.ecommerce_ExtraScenarios"/>  -->
+      <class name="udemyEcommerceApp.ecommerce_HomePage"/>
+     <class name="udemyEcommerceApp.ecommerce_AddToCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
